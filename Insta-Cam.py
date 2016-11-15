@@ -31,11 +31,9 @@ for each in prediction:
 
 highest = 0
 i = 0
-check = -1000
-high_list = []
-previous = 0
+check = -1000#Dummy variable to initiate iteration
+previous = 0#Variable to obtain the previous number in the loop.
 
-len_ = len(scores)
 for (x,y,z) in scores:
 	previous = z
 	if z > check:
@@ -48,5 +46,4 @@ for (x,y,z) in scores:
 name_to_search = name
 
 url = webbrowser.open("https://www.google.ca/search?q="+name_to_search+"&source=lnms&tbm=isch&sa=X&ved")
-path_to_chrome = "'/usr/bin/google-chrome%s"
-webbrowser.get(path_to_chrome).open(url)
+webbrowser.open(url)
