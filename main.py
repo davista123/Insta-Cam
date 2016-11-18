@@ -19,6 +19,7 @@ cv2.destroyAllWindows()
 
 
 #The default input size for this model is 224x224.
+#Load keras pretrained weights
 imageModel = VGG16(include_top=True, weights='imagenet')
 
 image_to_use = "frame.jpg"
