@@ -1,3 +1,3 @@
-# Insta-Cam
+# InstaCam
 
 ### Search Google using  images!
