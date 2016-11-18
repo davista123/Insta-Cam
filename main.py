@@ -1,7 +1,6 @@
 from keras.applications.vgg16 import VGG16, preprocess_input,decode_predictions
 from keras.preprocessing import image
 import numpy as np
-import json
 import webbrowser
 import cv2
 
