@@ -47,16 +47,18 @@ i = 0
 check = -1000#Dummy variable to initiate iteration
 previous = 0#Variable to obtain the previous number in the loop.
 
+#This code is a bit redundant. I find it easier to obtain the text in this way
 for (x,y,z) in scores:
 	previous = z
-	if z > check:
-		highest = z
-		check = z
+	if z > check: #Just a default
+		highest = z #Set the highest to the score
+		check = z #Compare with highest value
 		name = y
 	else:
-		highest = previous
-
+		highest = previous #compare with the previous value
+#what would you like google to search
 name_to_search = name
 
-url = webbrowser.open("https://www.google.ca/search?q="+name_to_search+"&source=lnms&tbm=isch&sa=X&ved")
+url = webbrowser.open("https://www.google.ca/search?q="+name_to_search+"&source=lnms&tbm=isch&sa=X&ved")#Tweak for own needs.
+#open the webbrowser				
 webbrowser.open(url)
