@@ -10,7 +10,7 @@ vid = cv2.VideoCapture(0)
 while(True):
 	_, frame = vid.read()
 	cv2.imshow('frame', frame)
-	cv2.putText(frame,'Hello World!',(10,500), font, 1,(255,255,255),2)
+	cv2.putText(frame,'Press (s) to search',(10,500), font, 1,(255,255,255),2)
 	if cv2.waitKey(1) & 0xFF == ord('s'):
 		cv2.imwrite("frame.jpg",frame)
 		break
