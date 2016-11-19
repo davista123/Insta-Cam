@@ -18,4 +18,4 @@
 
 - [ ]  Generate Tests
 - [ ]  Handle various exceptions
-- [ ]  Document code a big better
+- [ ]  Document code 
