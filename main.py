@@ -18,21 +18,19 @@ vid.release()
 cv2.destroyAllWindows()
 
 
-#The default input size for this model is 224x224.
+
 #Load keras pretrained weights
 imageModel = VGG16(include_top=True, weights='imagenet')
 
 image_to_use = "frame.jpg"
 
-#Convert the image to (L*W) 224*224
+#The default input size for this model is 224x224
 img = image.load_img(image_to_use, target_size=(224, 224))
 
 
 x = image.img_to_array(img)
 x = np.expand_dims(x, axis=0)
 x = preprocess_input(x)
-
-print("Loading....")
 
 scores = []
 
