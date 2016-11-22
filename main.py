@@ -39,9 +39,10 @@ prediction = decode_predictions(preds)#top = 3)[0]
 for each in prediction:
 	for tuple_ in each:
 		scores.append(tuple_)
-
+#Initiate the highest value and the iterator to zero
 highest = 0
 i = 0
+
 check = -1000#Dummy variable to initiate iteration
 previous = 0#Variable to obtain the previous number in the loop.
 
@@ -51,7 +52,7 @@ for (x,y,z) in scores:
 	if z > check: #Just a default
 		highest = z #Set the highest to the score
 		check = z #Compare with highest value
-		name = y
+		name = y #Obtain the name
 	else:
 		highest = previous #compare with the previous value
 #what would you like google to search
