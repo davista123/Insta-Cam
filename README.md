@@ -10,7 +10,10 @@
 
 
 ### _MAC / LINUX USERS_
-
+1. The program can be run directly from the terminal using:
+```
+python main.py
+```
 
 
 
