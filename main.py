@@ -59,5 +59,5 @@ for (x,y,z) in scores:
 name_to_search = name
 
 url = webbrowser.open("https://www.google.ca/search?q="+name_to_search+"&source=lnms&tbm=isch&sa=X&ved")#Tweak for own needs.
-#open the webbrowser				
+#open the web browser				
 webbrowser.open(url)
