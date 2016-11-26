@@ -19,7 +19,7 @@ cv2.destroyAllWindows()
 
 
 
-#Load keras pretrained weights
+
 imageModel = VGG16(include_top=True, weights='imagenet')
 
 image_to_use = "frame.jpg"
@@ -61,3 +61,6 @@ name_to_search = name
 url = webbrowser.open("https://www.google.ca/search?q="+name_to_search+"&source=lnms&tbm=isch&sa=X&ved")#Tweak for own needs.
 #open the web browser				
 webbrowser.open(url)
+
+
+
