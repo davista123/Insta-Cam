@@ -1,7 +1,7 @@
 
 # InstaCam
 
-### Search Google using  images!
+### Snap to search!
 
 
 
