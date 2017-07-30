@@ -46,10 +46,9 @@ i = 0
 check = -1000#Dummy variable to initiate iteration
 previous = 0#Variable to obtain the previous number in the loop.
 
-#This code is a bit redundant. I find it easier to obtain the text in this way
 for (x,y,z) in scores:
 	previous = z
-	if z > check: #Just a default
+	if z > check:
 		highest = z #Set the highest to the score
 		check = z #Compare with highest value
 		name = y #Obtain the name
