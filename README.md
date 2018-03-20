@@ -1,5 +1,3 @@
-
-##### _Work in Progress_...
 # InstaCam
 
 ### Snap to search!
@@ -14,12 +12,3 @@ Support is coming soon
 ```
 python main.py
 ```
-
-
-
-### TODO:
-
-- [ ]  Generate Tests
-- [ ]  Handle various exceptions
-- [ ]  Document code 
-- [ ]  Draw bounding box on the image to identify
