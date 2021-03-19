@@ -1,5 +1,5 @@
 Cheetah==2.4.4
-Jinja2==2.7.2
+Jinja2==2.11.3
 Keras==1.1.1
 Landscape-Client==14.12
 MarkupSafe==0.18
