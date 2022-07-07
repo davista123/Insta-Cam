@@ -44,7 +44,7 @@ python-apt===0.9.3.5ubuntu2
 python-debian===0.1.21-nmu2ubuntu2
 python-firebase==1.2
 pyzmq==14.0.1
-requests==2.2.1
+requests==2.20.0
 scipy==0.13.3
 simplegeneric==0.8.1
 six==1.10.0
